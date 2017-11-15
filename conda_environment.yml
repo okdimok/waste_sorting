@@ -1,0 +1,267 @@
+name: waste_sorting
+channels:
+- conda-forge
+- damianavila82
+- defaults
+dependencies:
+# - blas
+# - cairo
+# - certifi
+- ffmpeg
+# - fontconfig
+# - freetype
+# - gettext
+# - ghost.py
+- giflib
+- glib
+- graphviz
+- harfbuzz
+- hdf5
+- icu
+- jasper
+- libpng
+- libwebp
+- matplotlib
+- nbbrowserpdf
+- numpy
+- openblas
+- opencv
+- pango
+- pillow
+- pypdf2
+# - pyserial
+- qt
+- scikit-learn
+- scipy
+- x264
+# - rise
+# - _license
+# - _nb_ext_conf
+# - alabaster
+# - anaconda-clean
+# - anaconda-client
+# - anaconda
+# - anaconda-navigator
+# - argcomplete
+# - astroid
+# - astropy
+# - babel
+# - backports
+# - beautifulsoup4
+# - bitarray
+# - blaze
+# - bokeh
+# - boto
+# - bottleneck
+# - bzip2
+# - cffi
+# - chest
+# - click
+# - cloudpickle
+# - clyent
+# - colorama
+# - configobj
+# - contextlib2
+# - cryptography
+# - curl
+# - cycler
+# - cython
+# - cytoolz
+# - dask
+# - datashape
+# - dbus
+# - decorator
+# - dill
+# - docutils
+# - dynd-python
+# - entrypoints
+# - et_xmlfile
+# - expat
+# - fastcache
+# - filelock
+# - flask
+# - flask-cors
+# - get_terminal_size
+# - gevent
+# - greenlet
+# - gst-plugins-base
+- gstreamer
+# - h5py
+# - heapdict
+# - idna
+- imagesize
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+# - itsdangerous
+# - jbig
+# - jdcal
+# - jedi
+# - jinja2
+# - joblib
+- jpeg
+- jsonschema
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+# - keras
+# - lazy-object-proxy
+# - libdynd
+# - libffi
+# - libgcc
+# - libgfortran
+# - libgpuarray
+# - libiconv
+# - libprotobuf
+# - libsodium
+# - libtiff
+# - libtool
+# - libxcb
+# - libxml2
+# - libxslt
+# - llvmlite
+# - locket
+# - lxml
+# - mako
+# - markupsafe
+# - mistune
+# - mkl
+# - mkl-service
+# - mpmath
+# - multipledispatch
+# - nb_anacondacloud
+- nb_conda
+- nb_conda_kernels
+- nbconvert
+- nbformat
+- nbpresent
+# - ncurses
+# - networkx
+# - nltk
+# - nose
+- notebook
+- numba
+# - numexpr
+# - odo
+# - olefile
+# - openpyxl
+# - openssl
+# - pandas
+# - partd
+# - patchelf
+# - path.py
+# - pathlib2
+# - patsy
+# - pcre
+# - pep8
+# - pexpect
+# - pickleshare
+- pip
+# - pixman
+# - pkginfo
+# - ply
+# - prompt_toolkit
+# - protobuf
+# - psutil
+# - ptyprocess
+# - py
+# - pyasn1
+# - pycosat
+# - pycparser
+# - pycrypto
+# - pycurl
+# - pyflakes
+# - pygments
+# - pygpu
+# - pylint
+# - pyopenssl
+# - pyparsing
+- pyqt
+# - pytables
+# - pytest
+- python=3.5.*
+- python-dateutil
+# - pytz
+# - pyyaml
+# - pyzmq
+- qtawesome
+- qtconsole
+- qtpy
+# - readline
+# - redis
+# - redis-py
+# - requests
+# - rope
+# - ruamel_yaml
+# - scikit-image
+# - seaborn
+# - setuptools
+# - simplegeneric
+# - singledispatch
+# - sip
+# - six
+# - snowballstemmer
+# - sockjs-tornado
+# - sphinx
+# - spyder
+# - sqlalchemy
+# - sqlite
+# - statsmodels
+# - sympy
+# - terminado
+# - tk
+# - toolz
+# - tornado
+# - traitlets
+# - unicodecsv
+# - wcwidth
+# - werkzeug
+# - wheel
+# - widgetsnbextension
+# - wrapt
+# - xlrd
+# - xlsxwriter
+# - xlwt
+# - xz
+- yaml
+# - zeromq
+# - zlib
+- pip:
+  # - app-version
+  # - backports.shutil-get-terminal-size
+  # - commonmark
+  # - dxfwrite
+  # - dynd
+  # - et-xmlfile
+  - imutils
+  - ipython-genutils
+  - jupyter-client
+  - jupyter-console
+  - jupyter-core
+  - math3d
+  # - nb-anacondacloud
+  # - nb-conda
+  # - nb-conda-kernels
+  - nbsphinx
+  # - nine
+  - notify
+  - notify2
+  - numpy-stl
+  - numpydoc
+  - prompt-toolkit
+  - pydot3
+  # - python-can
+  - python-utils
+  # - recommonmark
+  # - rope-py3k
+  # - stemming
+  # - stl-tools
+  # - tables
+  - tolerance
+  # - tqdm
+  - urx
+  # - validate-email
+  # - xgboost
+prefix: /home/dima/apps/anaconda3
