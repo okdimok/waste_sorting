@@ -85,7 +85,7 @@ dependencies:
 # - gevent
 # - greenlet
 # - gst-plugins-base
-- gstreamer
+# - gstreamer # no gstreamer on Mac
 # - h5py
 # - heapdict
 # - idna

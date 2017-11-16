@@ -6,6 +6,8 @@ git clone https://github.com/okdimok/waste_sorting.git
 ```
 Otherwise just download [a zipped version of this repository](https://github.com/okdimok/waste_sorting/archive/master.zip) and extract it to a "waste_sorting" folder.
 
+Than you need to create an environment with the packages, needed for the class.u
+
 ```bash
 cd waste_sorting
 conda env create -n waste_sorting -f conda_environment.yml
